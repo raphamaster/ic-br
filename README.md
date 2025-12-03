@@ -1,4 +1,4 @@
-# Monitoramento Macroeconômico: Commodities (IC-Br) vs. Dólar
+# Monitoramento Macroeconômico de Commodities (IC-Br) vs. Dólar
 
 Este projeto consiste em uma análise de dados ponta a ponta (ETL, Análise Exploratória e Visualização) para investigar a correlação entre o **Índice de Commodities Brasil (IC-Br)** e a taxa de câmbio **(USD/BRL)**. 
 
@@ -57,7 +57,7 @@ Passo a Passo
 Clone o repositório:
 
 ```bash
-git clone [https://github.com/SEU_USUARIO/analise-commodities.git](https://github.com/SEU_USUARIO/analise-commodities.git)
+git clone [https://github.com/raphamaster/analise-commodities.git]
 cd analise-commodities
 ```
 
