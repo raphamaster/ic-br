@@ -1,0 +1,19 @@
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar checkpoints do Jupyter (aqueles arquivos ocultos chatos)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignorar ambientes virtuais (se criar um localmente fora do docker)
+.env/
+venv/
+.venv/
+
+# Opcional: Ignorar dados se forem muito pesados ou confidenciais
+data/
+
+# Ignorar arquivos de sistema operacional
+.DS_Store
+Thumbs.db

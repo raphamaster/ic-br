@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    container_name: jupyter-portfolio
+    ports:
+      - "8888:8888"
+    volumes:
+      # Mapeia a pasta local 'notebooks' para a pasta de trabalho do container
+      - ./notebooks:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      # Opção para evitar problemas de permissão em Linux/WSL
+      - CHOWN_HOME=yes
+      - CHOWN_HOME_OPTS='-R'
+    restart: unless-stopped
