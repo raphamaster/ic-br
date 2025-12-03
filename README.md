@@ -1,5 +1,7 @@
 # Monitoramento Macroeconômico de Commodities (IC-Br) vs. Dólar
 
+[![Open In NBViewer](https://img.shields.io/badge/Render-NBViewer-orange)](https://nbviewer.org/github/raphamaster/ic-br/blob/main/notebooks/Analise_ICBr.ipynb)
+
 Este projeto consiste em uma análise de dados ponta a ponta (ETL, Análise Exploratória e Visualização) para investigar a correlação entre o **Índice de Commodities Brasil (IC-Br)** e a taxa de câmbio **(USD/BRL)**. 
 
 O objetivo é entender como a volatilidade cambial e os choques de oferta globais impactaram os preços das matérias-primas no Brasil nos últimos anos.
@@ -80,3 +82,11 @@ docker-compose logs -f
 Navegue até a pasta notebooks/ e abra o arquivo Analise_ICBr.ipynb.
 
 Execute todas as células para gerar os dados atualizados e os gráficos.
+
+## Visualização do Projeto
+
+Abaixo, uma demonstração da interatividade da análise, permitindo correlacionar os picos do Dólar com a alta das Commodities:
+
+![Demonstração da Análise](output/demo_analise.gif)
+
+> **[Clique aqui para ver o Gráfico Interativo completo (HTML)](output/grafico_commodities_dolar.html)**
